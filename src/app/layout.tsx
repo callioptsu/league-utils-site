@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["700"] });
 
 export const metadata: Metadata = {
-  title: "Next template",
-  description: "Template for front-end projects.",
+  title: "Shutdown",
+  description: "Site that renders League of Legends summoner informations",
 };
 
 export default function RootLayout({
